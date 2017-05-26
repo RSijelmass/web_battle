@@ -30,4 +30,9 @@ class Battle < Sinatra::Base
     erb :attack
     redirect '/play'
   end
+
+  get '/switch' do
+    $game.switch
+    redirect '/play'
+  end
 end

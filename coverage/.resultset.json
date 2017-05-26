@@ -1,8 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Applications/Projects/MakersWeek3/Battle/spec/features/attacking_player2_spec.rb": [
+      "/Applications/Projects/MakersWeek3/Battle/spec/features/attacking_player_spec.rb": [
         1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         1,
         1,
         1,
@@ -78,6 +84,6 @@
         null
       ]
     },
-    "timestamp": 1495790683
+    "timestamp": 1495791838
   }
 }

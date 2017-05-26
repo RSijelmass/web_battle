@@ -4,4 +4,10 @@ feature 'Main' do
     click_button('Attack')
     expect(page).to have_content 'Sam Hitpoints: 90'
   end
+
+  scenario 'switch button' do
+    sign_in_and_play
+    click_button('Switch')
+    expect(page).to have_content 'Ian Hitpoints: 100'
+  end
 end
