@@ -15,8 +15,8 @@ describe Game do
   describe 'initialize' do
      it 'expects two player instances' do
 	game = Game.new(player1, player2)
-	expect(game.player1).to eq player1
-	expect(game.player2).to eq player2
+	expect(Game.player1).to eq player1
+	expect(Game.player2).to eq player2
      end
   end
 

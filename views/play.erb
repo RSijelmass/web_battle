@@ -1,11 +1,11 @@
 <div>
   <%= @player1.name %> vs <%= @player2.name %></br>
 
-  <%= $game.player1.name %> Hitpoints: <%= $game.player1.hp %></br>
-  <%= $game.player2.name %> Hitpoints: <%= $game.player2.hp %></br>
+  <%= @player1.name %> Hitpoints: <%= @player1.hp %></br>
+  <%= @player2.name %> Hitpoints: <%= @player2.hp %></br>
   
   <% if Game.attacked? %>
-     <%= $game.current_player.name %> attacked <%= $game.opponent.name %>!</br>
+     <%= Game.current_player.name %> attacked <%= Game.opponent.name %>!</br>
   <% end %>
 
    <form action="/attack">
