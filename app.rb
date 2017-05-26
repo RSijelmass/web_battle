@@ -26,7 +26,7 @@ class Battle < Sinatra::Base
   get '/attack' do
     @player1 = $game.player1
     @player2 = $game.player2
-    $game.attack($game.opponent)
+    Game.attack($game.opponent)
     redirect '/game_over' if $game.over?
     redirect '/play'
   end

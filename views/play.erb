@@ -4,7 +4,7 @@
   <%= $game.player1.name %> Hitpoints: <%= $game.player1.hp %></br>
   <%= $game.player2.name %> Hitpoints: <%= $game.player2.hp %></br>
   
-  <% if $game.attacked %>
+  <% if Game.attacked? %>
      <%= $game.current_player.name %> attacked <%= $game.opponent.name %>!</br>
   <% end %>
 
