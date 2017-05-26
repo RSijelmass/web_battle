@@ -17,4 +17,10 @@ feature 'Main' do
     click_button('Attack')
     expect(page).to have_content('Ian Hitpoints: 90')
   end
+
+  scenario 'return "LOSE" when player reaches 0HP' do
+    sign_in_and_play
+    10.times { click_button('Attack') }
+    expect(page).to have_content('Ian has won the game!')
+  end
 end

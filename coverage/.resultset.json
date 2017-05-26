@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Applications/Projects/MakersWeek3/Battle/spec/features/attacking_player_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/attacking_player_spec.rb": [
         1,
         1,
         1,
@@ -22,7 +22,7 @@
         null,
         null
       ],
-      "/Applications/Projects/MakersWeek3/Battle/spec/features/enter_name_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/enter_name_spec.rb": [
         1,
         1,
         1,
@@ -30,7 +30,7 @@
         null,
         null
       ],
-      "/Applications/Projects/MakersWeek3/Battle/spec/features/player2_hit_points_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/hit_points_spec.rb": [
         1,
         1,
         1,
@@ -45,6 +45,20 @@
         null,
         null,
         1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        11,
+        1,
+        null,
+        null
+      ],
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/testing_infrastructure_spec.rb": [
         1,
         1,
         1,
@@ -52,15 +66,7 @@
         null,
         null
       ],
-      "/Applications/Projects/MakersWeek3/Battle/spec/features/testing_infrastructure_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Applications/Projects/MakersWeek3/Battle/spec/game_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/game_spec.rb": [
         1,
         null,
         1,
@@ -85,7 +91,7 @@
         null,
         null
       ],
-      "/Applications/Projects/MakersWeek3/Battle/spec/player_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/player_spec.rb": [
         1,
         null,
         1,
@@ -104,6 +110,6 @@
         null
       ]
     },
-    "timestamp": 1495795845
+    "timestamp": 1495796644
   }
 }

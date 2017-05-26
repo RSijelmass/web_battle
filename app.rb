@@ -28,11 +28,18 @@ class Battle < Sinatra::Base
     @player2 = $game.player2
     $game.attack($game.opponent)
     erb :attack
+    if $game.player1.hp <= 0 || $game.player2.hp <= 0
+        redirect '/game_over'
+    end
     redirect '/play'
   end
 
   get '/switch' do
     $game.switch
     redirect '/play'
+  end
+
+  get '/game_over' do
+    erb :game_over
   end
 end
