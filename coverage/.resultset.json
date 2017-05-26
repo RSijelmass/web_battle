@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/simo/Desktop/projects/web_battle/spec/features/attacking_player2_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/attacking_player2_spec.rb": [
         1,
         1,
         1,
@@ -10,7 +10,7 @@
         null,
         null
       ],
-      "/Users/simo/Desktop/projects/web_battle/spec/features/enter_name_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/enter_name_spec.rb": [
         1,
         1,
         1,
@@ -18,7 +18,7 @@
         null,
         null
       ],
-      "/Users/simo/Desktop/projects/web_battle/spec/features/player2_hit_points_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/player2_hit_points_spec.rb": [
         1,
         1,
         1,
@@ -26,7 +26,7 @@
         null,
         null
       ],
-      "/Users/simo/Desktop/projects/web_battle/spec/features/testing_infrastructure_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/features/testing_infrastructure_spec.rb": [
         1,
         1,
         1,
@@ -34,25 +34,32 @@
         null,
         null
       ],
-      "/Users/simo/Desktop/projects/web_battle/spec/game_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/game_spec.rb": [
         1,
         null,
         1,
+        3,
+        3,
         2,
-        1,
-        2,
         null,
         1,
         1,
         1,
         1,
         null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         null,
         null
       ],
-      "/Users/simo/Desktop/projects/web_battle/spec/player_spec.rb": [
+      "/Users/ritasijelmass/Projects/web_battle/spec/player_spec.rb": [
         1,
         null,
         1,
@@ -71,6 +78,6 @@
         null
       ]
     },
-    "timestamp": 1495728710
+    "timestamp": 1495790247
   }
 }

@@ -25,7 +25,8 @@ class Battle < Sinatra::Base
   get '/attack' do
     @player1 = $player_1
     @player2 = $player_2
-    Game.new.attack(@player2)
+    Game.new(@player1,@player2).attack(@player2)
     erb :attack
+    redirect '/play'
   end
 end
