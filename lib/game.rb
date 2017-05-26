@@ -18,5 +18,8 @@ class Game
     @attacked = false
     @current_player, @opponent = @opponent, @current_player
   end
-
+  
+  def over?
+    @player1.hp <= 0 || @player2.hp <= 0
+  end
 end
